@@ -20,7 +20,7 @@ const App = () => {
 
   const solvePuzzle = async () => {
     try {
-      const response = await axios.post("http://localhost:5000/solve", {
+      const response = await axios.post("https://eight-puzzle-backend-7f3c.onrender.com/solve", {
         initial: grid,
         goal: goal,
         row: 2,
